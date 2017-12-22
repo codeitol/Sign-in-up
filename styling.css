@@ -1,0 +1,60 @@
+body{
+  margin: 65px 350px;
+  padding: 20px;
+  background-color: darkslategrey;
+ 
+}
+h1, h2, h3{
+  color: MidnightBlue;
+}
+span{
+  color: black;
+  
+}
+input, textarea{
+  border-radius: 10px;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    padding: 3px 7px;
+    text-align: center;
+    display: inline-block;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+div{
+    border: 15px solid MidnightBlue;
+    background-color: white;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   border: 0;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
